@@ -1,0 +1,35 @@
+{
+  "name": "plex-report",
+  "js": {
+    "version": "0.0.1"
+  },
+  "description": "Reporting tool used to log corrupt or poor videos on PlexNas",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxerus/plex-report.git"
+  },
+  "author": "nyxerus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyxerus/plex-report/issues"
+  },
+  "dependencies": {
+    "plex-api": "3.3.0",
+    "react-dom": "^0.14.7",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^6.0.0",
+    "grunt-browserify": "^3.7.0",
+    "grunt-contrib-uglify": "^0.11.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^3.4.0"
+  }
+}
